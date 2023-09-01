@@ -1,0 +1,138 @@
+
+#header {
+    background-color: black;
+    top: 0;
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+    color: white;
+    padding: 35px;
+    right: 0;
+    left: 0;
+  }
+  
+  #espaciado {
+   margin-bottom: 150px;
+  }
+  
+  #description {
+    font-size: 15px;
+    margin: 15px;
+    color: white;
+    font-family: monospace, Calibri;
+    font-weight: bold;
+  }
+  
+  label {
+    font-family: monospace;
+  }
+  
+  #numero1, #numero2, #resultado, #numero1-label, #numero2-label {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 200px;
+    font-size: 14px;
+  }
+  
+  body {
+    margin: 0;
+    background-image:url("fondo.png");
+    background-attachment: fixed;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  #title {
+    font-family: Calibri, Sans-Serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  p {
+    margin: 10px auto;
+    color: white;
+  
+  }
+  
+  .logo {
+    position: absolute;
+    font-size: 0.5em;
+    width: 100px;
+    margin: -3px;
+    left: 30px;
+    top: 10px;
+    border-radius: 50%;
+    border: 0;
+  }
+  
+  #principal-description {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.1em;
+    color:#F9ea6e;
+    font-family: monospace, Calibri;
+  }
+  
+  #survey-form {
+    opacity: 0.7;
+    background-color: black;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 120px;
+    min-width: 250px;
+    max-width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+  }
+  
+  #footer {
+    position: relative;
+    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    padding: 28px;
+    right: 0;
+    text-align: center;
+  }
+  
+  .submit {
+    background-color: red;
+    padding: 10px 5px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 75px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; /* transición de transformación */
+  }
+
+  .submit:hover {
+    transform: scale(0.95); /* transformación de escala en hover */
+  }
+  #copyright {
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 10px;
+  }
+  
+  label {
+    color: #F9ea6e;
+    font-weight: bold;
+  }
