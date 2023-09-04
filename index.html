@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            <img src="logo.png" class="logo">
+            <h1 id="title">Calculator N.L.L </h1>
+        </div>
+        <div id="espaciado"></div>
+        <div class="margin">
+            <form id="survey-form" required>
+                <p id="principal-description">Haz tus cuentas básicas</p>
+                <p id="description">Puedes sumar, restar, multiplicar y dividir</p>
+                <label for="numero1" id="numero1-label">Primer Número</label>
+                <input type="number" step="any" id="numero1" placeholder="Por ejemplo: 5">
+                <label for="numero2" id="numero2-label">Segundo Número</label>
+                <input type="number" step="any" id="numero2" placeholder="Por ejemplo: 3">
+                <button class="submit" operacion-aritmetica="1">Sumar</button>
+                <button class="submit" operacion-aritmetica="2">Restar</button>
+                <button class="submit" operacion-aritmetica="3">Multiplicar</button>
+                <button class="submit" operacion-aritmetica="4">Dividir</button><br>
+                <input type="text" id="resultado" placeholder="Resultado">
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <footer id="footer">
+    <p>Calculator N.L.L</p>
+    <p>&copy; 2023 Todos los derechos reservados</p>
+</footer>
+</body>
+
+</html>
